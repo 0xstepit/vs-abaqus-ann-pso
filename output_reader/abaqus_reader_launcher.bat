@@ -1,0 +1,1 @@
+start abaqus cae noGUI=Output_Reader.py

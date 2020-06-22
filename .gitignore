@@ -1,5 +1,23 @@
-# Object file
-*.o
+# Exclude PyCharm .idea folders
+*.idea/
 
-# Ada Library Information
-*.ali
+# Exclude Jupyter checkpoints
+*.ipynb_checkpoints
+
+# Exclude all Abaqus output files except .odb and .inp
+*.com
+*.dat
+*.msg
+*.prt
+*.sim
+*.sta
+*.log
+*.rpy
+*.inp
+*.odb
+
+# Exclude pictures
+*.png
+
+# Exclude old folders
+*/old/
