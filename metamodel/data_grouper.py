@@ -15,16 +15,24 @@ import numpy as np
 import pandas as pd
 import os
 
-load_case = 'axial'
+# Modify parameter to choose the output folder to consider
+stacking_sequence = 'symmetric'
+data_set = 'large1.65'
+load_case = 'torsion'
 fiber_path = 'harmlin'
-input_folder = '../dataset/' + fiber_path + '/'
-info = pd.read_csv(input_folder + 'model_info.csv', sep=",")
+
+# Output folder
+results_folder = '../dataset/' + load_case + '/' + stacking_sequence + '/'\
+                 + data_set + '/' + fiber_path + '/'
+
+# Read model info
+info = pd.read_csv(results_folder + 'model_info.csv', sep=",")
 info.index = ['Value']
 eff_plies = int(info['EffectivePlies'].values)
 sets = ['train', 'test']
 
 # Create the folder to store the data
-folder = fiber_path
+folder = load_case + '/' + stacking_sequence + '/' + data_set + '/' + fiber_path
 try:
     if not os.path.isdir(folder):
         os.makedirs(folder)
@@ -32,7 +40,7 @@ except OSError:
     print('Error: Creating directory. ' + folder)
 
 for curr_set in sets:
-    output_folder = input_folder + 'abaqus_analysis/'
+    output_folder = results_folder + 'abaqus_analysis/'
 
     # Load the input features
     col_dict = {}
@@ -47,7 +55,7 @@ for curr_set in sets:
             col_dict.update({'ply' + str(ply): ['theta_' + str(ply)]})
 
     for ply in range(1, eff_plies + 1):
-        foo = pd.read_csv(input_folder + curr_set + '/ply' + str(ply) + '.csv',
+        foo = pd.read_csv(results_folder + curr_set + '/ply' + str(ply) + '.csv',
                           names=col_dict['ply' + str(ply)], sep=",", skiprows=1)  # placeholder
         if ply == 1:
             data = foo.copy()
