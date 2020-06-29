@@ -16,9 +16,9 @@ import pandas as pd
 import os
 
 # Modify parameter to choose the output folder to consider
-stacking_sequence = 'symmetric'
-data_set = 'large1.65'
-load_case = 'torsion'
+stacking_sequence = 'symmetric_balanced'
+data_set = 'large'
+load_case = 'axial'
 fiber_path = 'harmlin'
 
 # Output folder
