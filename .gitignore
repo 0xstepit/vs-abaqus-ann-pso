@@ -24,3 +24,7 @@
 
 # Exclude old folders
 */old/
+
+
+# Exclude venv
+*/venv/
