@@ -10,10 +10,11 @@ import os
 mesh_size = 10
 F_egv = 1
 scale = 1000  # divide the force values
-stacking_sequence = 'symmetric'
+stacking_sequence = 'symmetric_balanced'
 data_set = 'large1.65'
-load_case = 'torsion'
+load_case = 'axial'
 fiber_path = 'harmlin'
+param = 2
 
 # Define variables according to the load case
 if load_case == 'axial':
@@ -29,7 +30,8 @@ if load_case == 'torsion':
 
 # Output folder
 results_folder = '../dataset/' + load_case + '/' + stacking_sequence + '/'\
-                 + data_set + '/' + fiber_path + '/abaqus_analysis/'
+                 + str(param) + 'x/' + fiber_path + '/abaqus_analysis/'
+
 path = os.getcwd()  # path of this script
 os.chdir(results_folder)  # move to output folder
 

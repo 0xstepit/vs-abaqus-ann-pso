@@ -7,7 +7,6 @@ Created: 26/03/2020
 
 Description:
 ------------
-
 """
 import numpy as np
 import pandas as pd
@@ -17,9 +16,12 @@ flag_bck = True
 flag_stiff = True
 flag_axial = True
 flag_torsion = False
-angles_func = 'constant'
+angles_func = 'harmlin'
+load_case = 'axial'
+param = 2
+folder_ss = 'symmetric_balanced'
 
-directory = '../dataset/' + angles_func + '/'
+directory = '../dataset/' + load_case + '/' + folder_ss + '/' + str(param) + 'x/' + angles_func + '/'
 model_info = pd.read_csv(directory + 'model_info.csv', sep=",")
 sets = [i.lower() for i in ['Train', 'Val', 'Test'] if i in model_info.columns]
 # The annoying question of x.value[..] is due to series nature of the dataframe
@@ -495,6 +497,4 @@ for curr_set in sets:
     f.write('cd ..\n')
 
 f.close()
-
-
 

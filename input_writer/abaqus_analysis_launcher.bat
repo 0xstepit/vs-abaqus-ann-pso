@@ -1,5 +1,349 @@
-cd ../dataset/constant/abaqus_analysis 
+cd ../dataset/axial/symmetric_balanced/2x/harmlin/abaqus_analysis 
 cd train
+cd sample1
+call abaqus job=bck_sample1 interactive
+call abaqus job=stiff_sample1 interactive
+cd ..
+cd sample2
+call abaqus job=bck_sample2 interactive
+call abaqus job=stiff_sample2 interactive
+cd ..
+cd sample3
+call abaqus job=bck_sample3 interactive
+call abaqus job=stiff_sample3 interactive
+cd ..
+cd sample4
+call abaqus job=bck_sample4 interactive
+call abaqus job=stiff_sample4 interactive
+cd ..
+cd sample5
+call abaqus job=bck_sample5 interactive
+call abaqus job=stiff_sample5 interactive
+cd ..
+cd sample6
+call abaqus job=bck_sample6 interactive
+call abaqus job=stiff_sample6 interactive
+cd ..
+cd sample7
+call abaqus job=bck_sample7 interactive
+call abaqus job=stiff_sample7 interactive
+cd ..
+cd sample8
+call abaqus job=bck_sample8 interactive
+call abaqus job=stiff_sample8 interactive
+cd ..
+cd sample9
+call abaqus job=bck_sample9 interactive
+call abaqus job=stiff_sample9 interactive
+cd ..
+cd sample10
+call abaqus job=bck_sample10 interactive
+call abaqus job=stiff_sample10 interactive
+cd ..
+cd sample11
+call abaqus job=bck_sample11 interactive
+call abaqus job=stiff_sample11 interactive
+cd ..
+cd sample12
+call abaqus job=bck_sample12 interactive
+call abaqus job=stiff_sample12 interactive
+cd ..
+cd sample13
+call abaqus job=bck_sample13 interactive
+call abaqus job=stiff_sample13 interactive
+cd ..
+cd sample14
+call abaqus job=bck_sample14 interactive
+call abaqus job=stiff_sample14 interactive
+cd ..
+cd sample15
+call abaqus job=bck_sample15 interactive
+call abaqus job=stiff_sample15 interactive
+cd ..
+cd sample16
+call abaqus job=bck_sample16 interactive
+call abaqus job=stiff_sample16 interactive
+cd ..
+cd sample17
+call abaqus job=bck_sample17 interactive
+call abaqus job=stiff_sample17 interactive
+cd ..
+cd sample18
+call abaqus job=bck_sample18 interactive
+call abaqus job=stiff_sample18 interactive
+cd ..
+cd sample19
+call abaqus job=bck_sample19 interactive
+call abaqus job=stiff_sample19 interactive
+cd ..
+cd sample20
+call abaqus job=bck_sample20 interactive
+call abaqus job=stiff_sample20 interactive
+cd ..
+cd sample21
+call abaqus job=bck_sample21 interactive
+call abaqus job=stiff_sample21 interactive
+cd ..
+cd sample22
+call abaqus job=bck_sample22 interactive
+call abaqus job=stiff_sample22 interactive
+cd ..
+cd sample23
+call abaqus job=bck_sample23 interactive
+call abaqus job=stiff_sample23 interactive
+cd ..
+cd sample24
+call abaqus job=bck_sample24 interactive
+call abaqus job=stiff_sample24 interactive
+cd ..
+cd sample25
+call abaqus job=bck_sample25 interactive
+call abaqus job=stiff_sample25 interactive
+cd ..
+cd sample26
+call abaqus job=bck_sample26 interactive
+call abaqus job=stiff_sample26 interactive
+cd ..
+cd sample27
+call abaqus job=bck_sample27 interactive
+call abaqus job=stiff_sample27 interactive
+cd ..
+cd sample28
+call abaqus job=bck_sample28 interactive
+call abaqus job=stiff_sample28 interactive
+cd ..
+cd sample29
+call abaqus job=bck_sample29 interactive
+call abaqus job=stiff_sample29 interactive
+cd ..
+cd sample30
+call abaqus job=bck_sample30 interactive
+call abaqus job=stiff_sample30 interactive
+cd ..
+cd sample31
+call abaqus job=bck_sample31 interactive
+call abaqus job=stiff_sample31 interactive
+cd ..
+cd sample32
+call abaqus job=bck_sample32 interactive
+call abaqus job=stiff_sample32 interactive
+cd ..
+cd sample33
+call abaqus job=bck_sample33 interactive
+call abaqus job=stiff_sample33 interactive
+cd ..
+cd sample34
+call abaqus job=bck_sample34 interactive
+call abaqus job=stiff_sample34 interactive
+cd ..
+cd sample35
+call abaqus job=bck_sample35 interactive
+call abaqus job=stiff_sample35 interactive
+cd ..
+cd sample36
+call abaqus job=bck_sample36 interactive
+call abaqus job=stiff_sample36 interactive
+cd ..
+cd sample37
+call abaqus job=bck_sample37 interactive
+call abaqus job=stiff_sample37 interactive
+cd ..
+cd sample38
+call abaqus job=bck_sample38 interactive
+call abaqus job=stiff_sample38 interactive
+cd ..
+cd sample39
+call abaqus job=bck_sample39 interactive
+call abaqus job=stiff_sample39 interactive
+cd ..
+cd sample40
+call abaqus job=bck_sample40 interactive
+call abaqus job=stiff_sample40 interactive
+cd ..
+cd sample41
+call abaqus job=bck_sample41 interactive
+call abaqus job=stiff_sample41 interactive
+cd ..
+cd sample42
+call abaqus job=bck_sample42 interactive
+call abaqus job=stiff_sample42 interactive
+cd ..
+cd sample43
+call abaqus job=bck_sample43 interactive
+call abaqus job=stiff_sample43 interactive
+cd ..
+cd sample44
+call abaqus job=bck_sample44 interactive
+call abaqus job=stiff_sample44 interactive
+cd ..
+cd sample45
+call abaqus job=bck_sample45 interactive
+call abaqus job=stiff_sample45 interactive
+cd ..
+cd sample46
+call abaqus job=bck_sample46 interactive
+call abaqus job=stiff_sample46 interactive
+cd ..
+cd sample47
+call abaqus job=bck_sample47 interactive
+call abaqus job=stiff_sample47 interactive
+cd ..
+cd sample48
+call abaqus job=bck_sample48 interactive
+call abaqus job=stiff_sample48 interactive
+cd ..
+cd sample49
+call abaqus job=bck_sample49 interactive
+call abaqus job=stiff_sample49 interactive
+cd ..
+cd sample50
+call abaqus job=bck_sample50 interactive
+call abaqus job=stiff_sample50 interactive
+cd ..
+cd sample51
+call abaqus job=bck_sample51 interactive
+call abaqus job=stiff_sample51 interactive
+cd ..
+cd sample52
+call abaqus job=bck_sample52 interactive
+call abaqus job=stiff_sample52 interactive
+cd ..
+cd sample53
+call abaqus job=bck_sample53 interactive
+call abaqus job=stiff_sample53 interactive
+cd ..
+cd sample54
+call abaqus job=bck_sample54 interactive
+call abaqus job=stiff_sample54 interactive
+cd ..
+cd sample55
+call abaqus job=bck_sample55 interactive
+call abaqus job=stiff_sample55 interactive
+cd ..
+cd sample56
+call abaqus job=bck_sample56 interactive
+call abaqus job=stiff_sample56 interactive
+cd ..
+cd sample57
+call abaqus job=bck_sample57 interactive
+call abaqus job=stiff_sample57 interactive
+cd ..
+cd sample58
+call abaqus job=bck_sample58 interactive
+call abaqus job=stiff_sample58 interactive
+cd ..
+cd sample59
+call abaqus job=bck_sample59 interactive
+call abaqus job=stiff_sample59 interactive
+cd ..
+cd sample60
+call abaqus job=bck_sample60 interactive
+call abaqus job=stiff_sample60 interactive
+cd ..
+cd sample61
+call abaqus job=bck_sample61 interactive
+call abaqus job=stiff_sample61 interactive
+cd ..
+cd sample62
+call abaqus job=bck_sample62 interactive
+call abaqus job=stiff_sample62 interactive
+cd ..
+cd sample63
+call abaqus job=bck_sample63 interactive
+call abaqus job=stiff_sample63 interactive
+cd ..
+cd sample64
+call abaqus job=bck_sample64 interactive
+call abaqus job=stiff_sample64 interactive
+cd ..
+cd sample65
+call abaqus job=bck_sample65 interactive
+call abaqus job=stiff_sample65 interactive
+cd ..
+cd sample66
+call abaqus job=bck_sample66 interactive
+call abaqus job=stiff_sample66 interactive
+cd ..
+cd sample67
+call abaqus job=bck_sample67 interactive
+call abaqus job=stiff_sample67 interactive
+cd ..
+cd sample68
+call abaqus job=bck_sample68 interactive
+call abaqus job=stiff_sample68 interactive
+cd ..
+cd sample69
+call abaqus job=bck_sample69 interactive
+call abaqus job=stiff_sample69 interactive
+cd ..
+cd sample70
+call abaqus job=bck_sample70 interactive
+call abaqus job=stiff_sample70 interactive
+cd ..
+cd sample71
+call abaqus job=bck_sample71 interactive
+call abaqus job=stiff_sample71 interactive
+cd ..
+cd sample72
+call abaqus job=bck_sample72 interactive
+call abaqus job=stiff_sample72 interactive
+cd ..
+cd sample73
+call abaqus job=bck_sample73 interactive
+call abaqus job=stiff_sample73 interactive
+cd ..
+cd sample74
+call abaqus job=bck_sample74 interactive
+call abaqus job=stiff_sample74 interactive
+cd ..
+cd sample75
+call abaqus job=bck_sample75 interactive
+call abaqus job=stiff_sample75 interactive
+cd ..
+cd sample76
+call abaqus job=bck_sample76 interactive
+call abaqus job=stiff_sample76 interactive
+cd ..
+cd sample77
+call abaqus job=bck_sample77 interactive
+call abaqus job=stiff_sample77 interactive
+cd ..
+cd sample78
+call abaqus job=bck_sample78 interactive
+call abaqus job=stiff_sample78 interactive
+cd ..
+cd sample79
+call abaqus job=bck_sample79 interactive
+call abaqus job=stiff_sample79 interactive
+cd ..
+cd sample80
+call abaqus job=bck_sample80 interactive
+call abaqus job=stiff_sample80 interactive
+cd ..
+cd sample81
+call abaqus job=bck_sample81 interactive
+call abaqus job=stiff_sample81 interactive
+cd ..
+cd sample82
+call abaqus job=bck_sample82 interactive
+call abaqus job=stiff_sample82 interactive
+cd ..
+cd sample83
+call abaqus job=bck_sample83 interactive
+call abaqus job=stiff_sample83 interactive
+cd ..
+cd sample84
+call abaqus job=bck_sample84 interactive
+call abaqus job=stiff_sample84 interactive
+cd ..
+cd sample85
+call abaqus job=bck_sample85 interactive
+call abaqus job=stiff_sample85 interactive
+cd ..
+cd sample86
+call abaqus job=bck_sample86 interactive
+call abaqus job=stiff_sample86 interactive
+cd ..
 cd sample87
 call abaqus job=bck_sample87 interactive
 call abaqus job=stiff_sample87 interactive
@@ -168,92 +512,134 @@ cd sample128
 call abaqus job=bck_sample128 interactive
 call abaqus job=stiff_sample128 interactive
 cd ..
-cd sample129
-call abaqus job=bck_sample129 interactive
-call abaqus job=stiff_sample129 interactive
 cd ..
-cd sample130
-call abaqus job=bck_sample130 interactive
-call abaqus job=stiff_sample130 interactive
+cd test
+cd sample1
+call abaqus job=bck_sample1 interactive
+call abaqus job=stiff_sample1 interactive
 cd ..
-cd sample131
-call abaqus job=bck_sample131 interactive
-call abaqus job=stiff_sample131 interactive
+cd sample2
+call abaqus job=bck_sample2 interactive
+call abaqus job=stiff_sample2 interactive
 cd ..
-cd sample132
-call abaqus job=bck_sample132 interactive
-call abaqus job=stiff_sample132 interactive
+cd sample3
+call abaqus job=bck_sample3 interactive
+call abaqus job=stiff_sample3 interactive
 cd ..
-cd sample133
-call abaqus job=bck_sample133 interactive
-call abaqus job=stiff_sample133 interactive
+cd sample4
+call abaqus job=bck_sample4 interactive
+call abaqus job=stiff_sample4 interactive
 cd ..
-cd sample134
-call abaqus job=bck_sample134 interactive
-call abaqus job=stiff_sample134 interactive
+cd sample5
+call abaqus job=bck_sample5 interactive
+call abaqus job=stiff_sample5 interactive
 cd ..
-cd sample135
-call abaqus job=bck_sample135 interactive
-call abaqus job=stiff_sample135 interactive
+cd sample6
+call abaqus job=bck_sample6 interactive
+call abaqus job=stiff_sample6 interactive
 cd ..
-cd sample136
-call abaqus job=bck_sample136 interactive
-call abaqus job=stiff_sample136 interactive
+cd sample7
+call abaqus job=bck_sample7 interactive
+call abaqus job=stiff_sample7 interactive
 cd ..
-cd sample137
-call abaqus job=bck_sample137 interactive
-call abaqus job=stiff_sample137 interactive
+cd sample8
+call abaqus job=bck_sample8 interactive
+call abaqus job=stiff_sample8 interactive
 cd ..
-cd sample138
-call abaqus job=bck_sample138 interactive
-call abaqus job=stiff_sample138 interactive
+cd sample9
+call abaqus job=bck_sample9 interactive
+call abaqus job=stiff_sample9 interactive
 cd ..
-cd sample139
-call abaqus job=bck_sample139 interactive
-call abaqus job=stiff_sample139 interactive
+cd sample10
+call abaqus job=bck_sample10 interactive
+call abaqus job=stiff_sample10 interactive
 cd ..
-cd sample140
-call abaqus job=bck_sample140 interactive
-call abaqus job=stiff_sample140 interactive
+cd sample11
+call abaqus job=bck_sample11 interactive
+call abaqus job=stiff_sample11 interactive
 cd ..
-cd sample141
-call abaqus job=bck_sample141 interactive
-call abaqus job=stiff_sample141 interactive
+cd sample12
+call abaqus job=bck_sample12 interactive
+call abaqus job=stiff_sample12 interactive
 cd ..
-cd sample142
-call abaqus job=bck_sample142 interactive
-call abaqus job=stiff_sample142 interactive
+cd sample13
+call abaqus job=bck_sample13 interactive
+call abaqus job=stiff_sample13 interactive
 cd ..
-cd sample143
-call abaqus job=bck_sample143 interactive
-call abaqus job=stiff_sample143 interactive
+cd sample14
+call abaqus job=bck_sample14 interactive
+call abaqus job=stiff_sample14 interactive
 cd ..
-cd sample144
-call abaqus job=bck_sample144 interactive
-call abaqus job=stiff_sample144 interactive
+cd sample15
+call abaqus job=bck_sample15 interactive
+call abaqus job=stiff_sample15 interactive
 cd ..
-cd sample145
-call abaqus job=bck_sample145 interactive
-call abaqus job=stiff_sample145 interactive
+cd sample16
+call abaqus job=bck_sample16 interactive
+call abaqus job=stiff_sample16 interactive
 cd ..
-cd sample146
-call abaqus job=bck_sample146 interactive
-call abaqus job=stiff_sample146 interactive
+cd sample17
+call abaqus job=bck_sample17 interactive
+call abaqus job=stiff_sample17 interactive
 cd ..
-cd sample147
-call abaqus job=bck_sample147 interactive
-call abaqus job=stiff_sample147 interactive
+cd sample18
+call abaqus job=bck_sample18 interactive
+call abaqus job=stiff_sample18 interactive
 cd ..
-cd sample148
-call abaqus job=bck_sample148 interactive
-call abaqus job=stiff_sample148 interactive
+cd sample19
+call abaqus job=bck_sample19 interactive
+call abaqus job=stiff_sample19 interactive
 cd ..
-cd sample149
-call abaqus job=bck_sample149 interactive
-call abaqus job=stiff_sample149 interactive
+cd sample20
+call abaqus job=bck_sample20 interactive
+call abaqus job=stiff_sample20 interactive
 cd ..
-cd sample150
-call abaqus job=bck_sample150 interactive
-call abaqus job=stiff_sample150 interactive
+cd sample21
+call abaqus job=bck_sample21 interactive
+call abaqus job=stiff_sample21 interactive
+cd ..
+cd sample22
+call abaqus job=bck_sample22 interactive
+call abaqus job=stiff_sample22 interactive
+cd ..
+cd sample23
+call abaqus job=bck_sample23 interactive
+call abaqus job=stiff_sample23 interactive
+cd ..
+cd sample24
+call abaqus job=bck_sample24 interactive
+call abaqus job=stiff_sample24 interactive
+cd ..
+cd sample25
+call abaqus job=bck_sample25 interactive
+call abaqus job=stiff_sample25 interactive
+cd ..
+cd sample26
+call abaqus job=bck_sample26 interactive
+call abaqus job=stiff_sample26 interactive
+cd ..
+cd sample27
+call abaqus job=bck_sample27 interactive
+call abaqus job=stiff_sample27 interactive
+cd ..
+cd sample28
+call abaqus job=bck_sample28 interactive
+call abaqus job=stiff_sample28 interactive
+cd ..
+cd sample29
+call abaqus job=bck_sample29 interactive
+call abaqus job=stiff_sample29 interactive
+cd ..
+cd sample30
+call abaqus job=bck_sample30 interactive
+call abaqus job=stiff_sample30 interactive
+cd ..
+cd sample31
+call abaqus job=bck_sample31 interactive
+call abaqus job=stiff_sample31 interactive
+cd ..
+cd sample32
+call abaqus job=bck_sample32 interactive
+call abaqus job=stiff_sample32 interactive
 cd ..
 cd ..

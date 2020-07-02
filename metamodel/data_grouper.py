@@ -7,7 +7,7 @@ Created: 13/04/2020
 
 Description:
 ------------
-Code to group the input and output of the analysis into one file.
+Code to group inputs and outputs of the analysis into one file.
 
 """
 # Required libraries
@@ -16,23 +16,29 @@ import pandas as pd
 import os
 
 # Modify parameter to choose the output folder to consider
-stacking_sequence = 'symmetric_balanced'
-data_set = 'large'
-load_case = 'axial'
 fiber_path = 'harmlin'
+load_case = 'axial'
+param = 2
+folder_ss = 'symmetric_balanced'
+
 
 # Output folder
-results_folder = '../dataset/' + load_case + '/' + stacking_sequence + '/'\
-                 + data_set + '/' + fiber_path + '/'
+results_folder = '../dataset/' + load_case + '/' + folder_ss + '/' + str(param) + 'x/' + fiber_path + '/'
 
 # Read model info
 info = pd.read_csv(results_folder + 'model_info.csv', sep=",")
 info.index = ['Value']
 eff_plies = int(info['EffectivePlies'].values)
-sets = ['train', 'test']
+sets = []
+if 'Train' in info:
+    sets.append('train')
+if 'Val' in info:
+    sets.append('val')
+if 'Test' in info:
+    sets.append('test')
 
 # Create the folder to store the data
-folder = load_case + '/' + stacking_sequence + '/' + data_set + '/' + fiber_path
+folder = load_case + '/' + folder_ss + '/' + str(param) + 'x/' + fiber_path
 try:
     if not os.path.isdir(folder):
         os.makedirs(folder)

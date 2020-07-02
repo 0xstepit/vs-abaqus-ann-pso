@@ -1,5 +1,5 @@
 # Exclude PyCharm .idea folders
-*.idea/
+**.idea/
 
 # Exclude MacOS folders
 **/.DS_Store
@@ -23,8 +23,10 @@
 *.png
 
 # Exclude old folders
-*/old/
-
+**/old
 
 # Exclude venv
-*/venv/
+**/venv
+
+# Exclude
+*abaqus.rpy.1
