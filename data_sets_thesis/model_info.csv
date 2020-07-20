@@ -1,0 +1,2 @@
+Height;Radius;MaxCurvature;MeshSize;Plies;EffectivePlies;Symmetric;Balanced;AnglesFunction;LoadCase;Train;Val;Test
+705;300;0.001575;5;8;2;TRUE;TRUE;harmlin;axial;81;27;27

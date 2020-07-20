@@ -1,0 +1,2 @@
+Height,Radius,MaxCurvature,MeshSize,Plies,EffectivePlies,Symmetric,Balanced,AnglesFunction,Train,Test
+700,300,0.0015748031496062992,10,8,2,True,True,harmlin,120,30
