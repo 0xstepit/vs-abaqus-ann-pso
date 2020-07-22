@@ -30,3 +30,6 @@
 
 # Exclude
 *abaqus.rpy.1
+
+# Exclude 
+**/runs
