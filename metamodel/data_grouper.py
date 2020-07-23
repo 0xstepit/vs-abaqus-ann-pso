@@ -14,10 +14,11 @@ Code to group inputs and outputs of the analysis into one file.
 import numpy as np
 import pandas as pd
 import os
+import shutil
 
 # Modify parameter to choose the output folder to consider
 fiber_path = 'harmlin'
-load_case = 'axial'
+load_case = 'torsion'
 param = 2
 folder_ss = 'symmetric_balanced'
 
@@ -81,5 +82,11 @@ for curr_set in sets:
         D = data_grouped.copy()
     else:
         D = pd.concat([D, data_grouped], axis=0)
+
+# Copy features boundaries
+shutil.copy(results_folder + '/features_min_max.csv', folder + '/')
+
+# Copy model info
+shutil.copy(results_folder + '/model_info.csv', folder + '/')
 
 D.to_csv(folder + '/data.csv', index=False, float_format='%.3f')

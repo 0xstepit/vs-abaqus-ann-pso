@@ -10,11 +10,11 @@ import os
 mesh_size = 10
 F_egv = 1
 scale = 1000  # divide the force values
-stacking_sequence = 'symmetric_balanced'
-data_set = 'large1.65'
-load_case = 'axial'
+
 fiber_path = 'harmlin'
+load_case = 'torsion'
 param = 2
+stacking_sequence = 'symmetric_balanced'
 
 # Define variables according to the load case
 if load_case == 'axial':

@@ -1,4 +1,4 @@
-cd ../dataset/axial/symmetric_balanced/2x/harmlin/abaqus_analysis 
+cd ../dataset/torsion/symmetric_balanced/2x/harmlin/abaqus_analysis 
 cd train
 cd sample1
 call abaqus job=bck_sample1 interactive

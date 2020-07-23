@@ -14,10 +14,10 @@ import os
 
 flag_bck = True
 flag_stiff = True
-flag_axial = True
-flag_torsion = False
+flag_axial = False
+flag_torsion = True
 angles_func = 'harmlin'
-load_case = 'axial'
+load_case = 'torsion'
 param = 2
 folder_ss = 'symmetric_balanced'
 
