@@ -18,7 +18,7 @@ flag_axial = False
 flag_torsion = True
 angles_func = 'harmlin'
 load_case = 'torsion'
-param = 2
+param = 4
 folder_ss = 'symmetric_balanced'
 
 directory = '../dataset/' + load_case + '/' + folder_ss + '/' + str(param) + 'x/' + angles_func + '/'

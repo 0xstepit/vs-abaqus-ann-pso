@@ -13,7 +13,7 @@ scale = 1000  # divide the force values
 
 fiber_path = 'harmlin'
 load_case = 'torsion'
-param = 2
+param = 4
 stacking_sequence = 'symmetric_balanced'
 
 # Define variables according to the load case
