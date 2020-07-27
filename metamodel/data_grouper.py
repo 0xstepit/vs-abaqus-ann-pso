@@ -17,9 +17,9 @@ import os
 import shutil
 
 # Modify parameter to choose the output folder to consider
-fiber_path = 'harmlin'
+fiber_path = 'constant'
 load_case = 'torsion'
-param = 8
+param = 4
 folder_ss = 'symmetric_balanced'
 
 
