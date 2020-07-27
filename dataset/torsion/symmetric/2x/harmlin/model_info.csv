@@ -1,0 +1,2 @@
+Height,Radius,MaxCurvature,MeshSize,Plies,EffectivePlies,Symmetric,Balanced,AnglesFunction,LoadCase,Train,Test
+705,300,0.001575,10,8,4,True,False,harmlin,torsion,256,64
