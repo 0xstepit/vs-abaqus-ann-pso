@@ -11,9 +11,9 @@ mesh_size = 10
 F_egv = 1
 scale = 1000  # divide the force values
 
-fiber_path = 'harmlin'
+fiber_path = 'constant'
 load_case = 'torsion'
-param = 8
+param = 4
 stacking_sequence = 'symmetric_balanced'
 
 # Define variables according to the load case
